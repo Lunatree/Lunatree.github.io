@@ -1685,7 +1685,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #446134;
+  background: #65ece2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2753,6 +2753,9 @@ hr {
   .posts-expand .post-meta {
     text-align: left;
   }
+}
+.menu .menu-item a {
+  float: left;
 }
 .site-author-image {
   display: block;
