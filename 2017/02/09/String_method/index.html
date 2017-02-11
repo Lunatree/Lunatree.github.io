@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="npm,hexo,github," />
+  <meta name="keywords" content="Javascript,String," />
 
 
 
@@ -84,28 +84,49 @@
 
 
 
-<meta name="description" content="Node Node.js — 类似一个操作系统
-一个JS的运行环境
-主要用于开发Web应用程序（回想登陆的例子）
-很多的前端开发工具都是基于node这个平台
-所用的工具就相当于一些软件">
+<meta name="description" content="charAt作用
+    方法返回字符串中指定位置的字符
+语法
+    string string.charAt(index)
+参数
+    index
+        0 到 字符串长度-1 的一个整数
+返回值
+    返回字符串
+             注意：如果index小于0或者大于等于字符串长度，返回空字符串
+charCodeAt作用
+    返回指定索引处字符的 Unicode 数值">
 <meta property="og:type" content="article">
-<meta property="og:title" content="基于Hexo和Github搭建博客">
-<meta property="og:url" content="http://yoursite.com/2016/01/24/hexo_github/index.html">
+<meta property="og:title" content="字符串方法">
+<meta property="og:url" content="http://yoursite.com/2017/02/09/String_method/index.html">
 <meta property="og:site_name" content="Lunatree的博客">
-<meta property="og:description" content="Node Node.js — 类似一个操作系统
-一个JS的运行环境
-主要用于开发Web应用程序（回想登陆的例子）
-很多的前端开发工具都是基于node这个平台
-所用的工具就相当于一些软件">
-<meta property="og:updated_time" content="2017-02-08T14:55:20.969Z">
+<meta property="og:description" content="charAt作用
+    方法返回字符串中指定位置的字符
+语法
+    string string.charAt(index)
+参数
+    index
+        0 到 字符串长度-1 的一个整数
+返回值
+    返回字符串
+             注意：如果index小于0或者大于等于字符串长度，返回空字符串
+charCodeAt作用
+    返回指定索引处字符的 Unicode 数值">
+<meta property="og:updated_time" content="2017-02-11T08:12:42.773Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="基于Hexo和Github搭建博客">
-<meta name="twitter:description" content="Node Node.js — 类似一个操作系统
-一个JS的运行环境
-主要用于开发Web应用程序（回想登陆的例子）
-很多的前端开发工具都是基于node这个平台
-所用的工具就相当于一些软件">
+<meta name="twitter:title" content="字符串方法">
+<meta name="twitter:description" content="charAt作用
+    方法返回字符串中指定位置的字符
+语法
+    string string.charAt(index)
+参数
+    index
+        0 到 字符串长度-1 的一个整数
+返回值
+    返回字符串
+             注意：如果index小于0或者大于等于字符串长度，返回空字符串
+charCodeAt作用
+    返回指定索引处字符的 Unicode 数值">
 
 
 
@@ -133,13 +154,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2016/01/24/hexo_github/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/02/09/String_method/"/>
 
 
 
 
 
-  <title> 基于Hexo和Github搭建博客 | Lunatree的博客 </title>
+  <title> 字符串方法 | Lunatree的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -295,7 +316,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2016/01/24/hexo_github/">
+  <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/02/09/String_method/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Lunatree">
@@ -319,7 +340,7 @@
             
             
               
-                基于Hexo和Github搭建博客
+                字符串方法
               
             
           </h1>
@@ -334,8 +355,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-01-24T00:00:00+08:00">
-                2016-01-24
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-09T00:00:00+08:00">
+                2017-02-09
               </time>
             
 
@@ -357,8 +378,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/搭建博客/" itemprop="url" rel="index">
-                    <span itemprop="name">搭建博客</span>
+                  <a href="/categories/Javascript笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">Javascript笔记</span>
                   </a>
                 </span>
 
@@ -375,8 +396,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2016/01/24/hexo_github/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/24/hexo_github/" itemprop="commentCount"></span>
+                <a href="/2017/02/09/String_method/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/09/String_method/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -388,7 +409,7 @@
 
           
           
-             <span id="/2016/01/24/hexo_github/" class="leancloud_visitors" data-flag-title="基于Hexo和Github搭建博客">
+             <span id="/2017/02/09/String_method/" class="leancloud_visitors" data-flag-title="字符串方法">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -415,152 +436,170 @@
       
 
       
-        <ul>
-<li>Node Node.js — 类似一个操作系统<ul>
-<li>一个JS的运行环境</li>
-<li>主要用于开发Web应用程序（回想登陆的例子）</li>
-<li>很多的前端开发工具都是基于node这个平台</li>
-<li>所用的工具就相当于一些软件<a id="more"></a></li>
-</ul>
-</li>
-<li><p>NVM （可选的）</p>
-<ul>
-<li>Node Version Manager(Node的版本管理工具)</li>
-<li>因为node的版本比较多，很多时候我们可能依赖多个版本，并要求自由切换</li>
-<li>使用<ul>
-<li>nvm use [对应的版本号] [平台架构（如果是32系统需要写32,64位不用管）]</li>
-<li>nvm install <version> [arch]  安装</version></li>
-<li>nvm uninstall <version> 卸载</version></li>
-<li>nvm list 查看已经安装版本</li>
-</ul>
-</li>
-<li>官网<ul>
-<li><a href="https://github.com/coreybutler/nvm-windows" target="_blank" rel="external">https://github.com/coreybutler/nvm-windows</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>NPM </p>
-<ul>
-<li>node package manager(node的包管理工具)</li>
-<li>npm管理包非常方便，我们只需要记住使用哪个包就可以了</li>
-<li><p>使用</p>
-<ul>
-<li>npm install xxx </li>
-<li>安装一个包到项目本地，必须要联网</li>
-<li><p>安装完成过后项目根目录下会多一个node_modules文件夹，所有的下载下来的包全部在里面</p>
-</li>
-<li><p>由于需要记录项目依赖哪些东西，所以需要一个配置文件“package.json”，可以通过npm init命令生成</p>
-</li>
-<li><p>以后安装包的时候将其–save</p>
-</li>
-<li><p>–save就是将我们安装的包名字和包版本记录到配置文件中的dependencies节点中</p>
-</li>
-<li>–save-dev</li>
-<li><p>项目依赖分两种，一个就是普通的项目依赖比如bootstrap，还用一种只是开发阶段需要用的，这种属于开发依赖比如gulp，开发依赖最终记录在devDependencies节点里面</p>
-</li>
-<li><p>npm uninstall xxx –save</p>
-</li>
-<li><p>npm install xxx -g(全局安装包)</p>
-<ul>
-<li>如果你安装的是一个工具，工具要在每一个地方都能用，这种情况下一般全局安装。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Bower</p>
-<ul>
-<li>Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for you.</li>
-<li>Bower就是用来管理项目中所有的依赖，主要用于Web页面开发时使用的包管理，比如jquery，bootstrap</li>
-<li><blockquote>
-<p>重复的轮子太多，抓住轮子与轮子之间的共性</p>
-</blockquote>
-</li>
-</ul>
-</li>
-<li><p>Gulp  FIS3</p>
-</li>
-<li><p><a href="http://www.ydcss.com/archives/94" target="_blank" rel="external">http://www.ydcss.com/archives/94</a></p>
-</li>
-<li><p>msi - microsoft installer 微软安装器</p>
-</li>
-</ul>
-<h2 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h2><h3 id="什么是GIT"><a href="#什么是GIT" class="headerlink" title="什么是GIT"></a>什么是GIT</h3><ul>
-<li>是一个源代码管理工具</li>
-<li>在一个项目中，凡是由开发人员编写的都算是源代码</li>
-<li>源代码有必要管理起来？</li>
-<li>让源代码可以被追溯，主要记录每次变更了什么，谁主导这次变化</li>
-<li>人为的维护比较麻烦，</li>
-<li>GIT是Linux之父当年为了维护管理Linux的源代码写的一个工具</li>
-<li>Git 之前 很多使用 svn vss tfs hs ……</li>
-</ul>
-<ul>
-<li><a href="https://guides.github.com/" target="_blank" rel="external">https://guides.github.com/</a></li>
-</ul>
-<h3 id="安装GIT"><a href="#安装GIT" class="headerlink" title="安装GIT"></a>安装GIT</h3><ul>
-<li>git命令行工具</li>
-<li>基于git命令行的一个客户端软件（提供一个界面去管理源代码）</li>
-</ul>
-<h3 id="GIT命令操作"><a href="#GIT命令操作" class="headerlink" title="GIT命令操作"></a>GIT命令操作</h3><ul>
-<li>初始化一个本地GIT仓储</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 当前项目目录</div><div class="line">git init // 初始化一个本地的仓库</div></pre></td></tr></table></figure>
-<blockquote>
-<p>就是在本地文件夹中添加了一个.git的文件夹用于记录所有的项目变更信息</p>
-</blockquote>
-<ul>
-<li>查看本地仓储的变更状态</li>
-</ul>
-<p>git status<br>用于查看本地仓储的状态<br>第一次查看，显示的是一坨没有被跟踪的文件</p>
-<p>git status -s // -s 是输出简要的变更日志</p>
-<ul>
-<li>添加本地暂存（托管）文件</li>
-</ul>
-<p>git add<br>可以将一个没有被跟踪的文件添加到跟踪列表</p>
-<p>类似于node_modules这种性质的文件是不应该被跟踪</p>
-<ul>
-<li>添加本地GIT忽略清单文件</li>
-</ul>
-<p>在代码库文件夹的根目录添加一个.gitignore文件<br>此文件用于说明忽略的文件有哪些</p>
-<ul>
-<li>提交被托管的文件变化到本地仓储</li>
-</ul>
-<p>git commit<br>将本地的变化提交的本地的仓库文件夹归档<br>一般在有了一个小单元的整体变化后再提交</p>
-<ul>
-<li>对比差异</li>
-</ul>
-<p>git diff<br>可以用于对比当前状态和版本库中状态的变化</p>
-<ul>
-<li>提交日志</li>
-</ul>
-<p>git log<br>可以查看提交日志</p>
-<ul>
-<li>回归到指定版本</li>
-</ul>
-<p>git reset –hard</p>
-<ul>
-<li><p>为仓储添加远端（服务器端）地址</p>
-</li>
-<li><p>将本地仓储的提交记录推送到远端的master分支</p>
-</li>
-<li><p>拉取远端master分支的更新记录到本地</p>
-</li>
-<li><p>回归到指定版本</p>
-</li>
-</ul>
-<h3 id="GITHUB基本使用"><a href="#GITHUB基本使用" class="headerlink" title="GITHUB基本使用"></a>GITHUB基本使用</h3><ul>
-<li><a href="https://github.com/" target="_blank" rel="external">https://github.com/</a></li>
-<li>GITHUB是一个GIT服务的提供商，</li>
-<li></li>
-<li>提出社交化编程</li>
-</ul>
-<p><a href="http://zoomzhao.github.io/code-guide/" target="_blank" rel="external">http://zoomzhao.github.io/code-guide/</a><br><a href="https://github.com/jobbole/awesome-javascript-cn" target="_blank" rel="external">https://github.com/jobbole/awesome-javascript-cn</a><br><a href="https://github.com/jobbole/awesome-css-cn" target="_blank" rel="external">https://github.com/jobbole/awesome-css-cn</a></p>
-<ul>
-<li>GIT分支</li>
-</ul>
+        <h2 id="charAt"><a href="#charAt" class="headerlink" title="charAt"></a>charAt</h2><pre><code>作用
+    方法返回字符串中指定位置的字符
+语法
+    string string.charAt(index)
+参数
+    index
+        0 到 字符串长度-1 的一个整数
+返回值
+    返回字符串
+             注意：如果index小于0或者大于等于字符串长度，返回空字符串
+</code></pre><h2 id="charCodeAt"><a href="#charCodeAt" class="headerlink" title="charCodeAt"></a>charCodeAt</h2><pre><code>作用
+    返回指定索引处字符的 Unicode 数值
+语法
+    number string.charCodeAt(index)
+参数
+    index
+        一个大于等于 0，小于字符串长度的整数。如果不是一个数值，则默认为 0。
+返回值
+        返回指定索引处字符的 Unicode 数值
+</code></pre><h2 id="indexOf"><a href="#indexOf" class="headerlink" title="indexOf"></a>indexOf</h2><pre><code>作用
+    返回指定值在调用该方法的字符串中首次出现的位置
+语法
+    number string.indexOf(searchValue [, fromIndex])
+参数
+    searchValue
+        一个字符串表示被查找的值
+    fromIndex
+        开始查找的位置，默认值为0
+返回值
+    返回数字
+    如果存在返回位置，如果不存在返回-1
+</code></pre><p>  PS:</p>
+<p>var str=”hello world”;<br>console.log( str.indexOf(“e”) )      =&gt;      1<br>console.log( str.indexOf(“e”,6) )    =&gt;     -1,不存在<br>console.log( str.indexOf(“e”,-1) )   =&gt;     -1</p>
+<h2 id="lastIndexOf"><a href="#lastIndexOf" class="headerlink" title="lastIndexOf"></a>lastIndexOf</h2><pre><code>作用
+    返回指定值在调用该方法的字符串中最后出现的位置
+语法
+    number string.lastIndexOf(searchValue [, fromIndex])
+参数
+    searchValue
+        一个字符串表示被查找的值
+    fromIndex
+        开始查找的位置，默认值为str.length-1
+返回值
+    返回数字
+    如果存在返回位置，如果不存在返回-1
+</code></pre><p> PS:</p>
+<p>var str=”hello world”;<br>console.log( str.lastIndexOf(“l”) )      =&gt;      9,默认从最后一位开始往前查找到的第一次出现的位置<br>console.log( str.lastIndexOf(“l”,6) )    =&gt;      3,从下标6的位置开始往前查找的第一次出现的位置<br>console.log( str.latIndexOf(“l”,-1) )    =&gt;     -1 不存在</p>
+<h2 id="slice"><a href="#slice" class="headerlink" title="slice"></a>slice</h2><pre><code>作用
+    方法提取字符串中的一部分，并返回这个新的字符串（包含起始位置，不包含结束位置）
 
+语法
+    string string.slice(beginSlice[, endSlice])
+
+参数
+    beginSlice
+        起始位置
+    endSlice
+        结束位置，默认为最后一个字符的位置+1
+返回值
+    返回截取后的字符串
+
+不会根据参数大小 交换参数位置
+如果参数中有负值，则处理成从末尾开始数（倒数）
+</code></pre><p>PS:</p>
+<p>var str=”hello world”;<br>console.log( str.slice() )         =&gt;    hello world<br>console.log( str.slice(0) )        =&gt;    hello world<br>console.log( str.slice(2,6) )      =&gt;    llo,包含起始位置，不包含结束位置<br>console.log( str.slice(-3) )       =&gt;    rld ,从倒数第3位开始向末尾截取<br>console.log( str.slice(-3，-1) )   =&gt;    rl ,从倒数第3位开始向倒第1位截取，不包含倒数第1位</p>
+<h2 id="split"><a href="#split" class="headerlink" title="split"></a>split</h2><pre><code>作用
+    通过一个指定的字符串把原字符串分割成一个数组
+语法
+    array string.split([separator] [, limit])
+参数
+    separator
+        分割符
+    limit
+        指定最多分割的数量，默认为全部
+返回值
+    返回一个数组
+
+当没有分割符的时候，整个字符串将作为一个整体保存到数组中
+</code></pre><p> PS:</p>
+<p>var str=”hello world”;<br>console.log( str.split() )         =&gt;    [“hello world”]<br>console.log( str.split(“”) )        =&gt;   [“h”, “e”, “l”, “l”, “o”, “ “, “w”, “o”, “r”, “l”, “d”]<br>console.log( str.split(“ “) )      =&gt;    [“hello”, “world”]<br>console.log( str.split(“|”) )       =&gt;   [“hello world”],分割字符串不存在，就把整个字符串作为一个整体保存到数组中 </p>
+<h2 id="substring"><a href="#substring" class="headerlink" title="substring"></a>substring</h2><pre><code>作用
+    截取指定位置之间的字符串
+
+语法
+    string string.substring(indexStart [, indexEnd])
+
+参数
+    indexStart
+        截取的起始位置
+    indexEnd
+        截取的结束位置，默认为最后一个字符的位置+1
+
+返回值
+    返回截取后的字符串
+
+会根据起始位置和结束位置的大小先进行参数位置的变换，再进行截取
+会把负值转换成0
+</code></pre><p> PS:</p>
+<p>var str=”hello world”;<br>console.log( str.subsring() )         =&gt;    hello world<br>console.log( str.subsring(0) )        =&gt;    hello world<br>console.log( str.subsring(2,6) )      =&gt;    llo,包含起始位置，不包含结束位置<br>console.log( str.subsring(-3) )       =&gt;    hello world ,会先把负值转换成0<br>console.log( str.subsring(-3，-1) )   =&gt;    空 </p>
+<h2 id="substr"><a href="#substr" class="headerlink" title="substr"></a>substr</h2><pre><code>作用
+    截取指定起始位置和长度的子字符串
+语法
+    string string.substr(start [, length])
+参数
+    start
+        截取的起始位置
+    length
+        截取的字符串长度，默认为字符长度
+返回值
+    返回截取后的字符串
+</code></pre><p>PS:</p>
+<p>var str=”hello world”;<br>console.log( str.substr() )         =&gt;   hello world<br>console.log( str.substr(0) )        =&gt;   hello world<br>console.log( str.substr(0,2) )      =&gt;   he<br>console.log( str.substr(-3) )       =&gt;   rld  ,从倒数第三位开始截取，默认为倒数第二位后面的字符长度<br>console.log( str.substr(-3，1) )    =&gt;   r    ,从倒数第三位开始截取长度为1的字符串<br>console.log( str.substr(-3，4) )    =&gt;   rld  ,从倒数第三位开始截取长度为4的字符串，超出了默认长度，直接截取默认长度</p>
+<h2 id="toLowerCase"><a href="#toLowerCase" class="headerlink" title="toLowerCase"></a>toLowerCase</h2><pre><code>作用
+     把字符串全部转成小写
+语法
+    string string.toLowerCase()
+返回值
+    返回转成小写的字符串
+</code></pre><h2 id="toUpperCase"><a href="#toUpperCase" class="headerlink" title="toUpperCase"></a>toUpperCase</h2><pre><code>作用
+     把字符串全部转成大写
+语法
+    string string.toUpperCase()
+返回值
+    返回转成大写的字符串
+</code></pre><h2 id="trim"><a href="#trim" class="headerlink" title="trim"></a>trim</h2><pre><code>作用
+     去掉字符串首尾的全部空格
+语法
+    string string.trim()
+返回值
+    返回去除首尾全部空格后的字符串  
+
+trimLeft() 清除字符串左边的空格
+trimRight() 清除字符串右边的空格
+</code></pre><h2 id="JSON"><a href="#JSON" class="headerlink" title="JSON"></a>JSON</h2><pre><code> JSON(JavaScript Object Notation)是一种轻量级的数据交换格式，一种类似JS中的对象格式的字符串
+
+JSON规则
+    数据以{}或者[]作为起始和结束
+    &apos;{}&apos;
+    &apos;[]&apos;
+    每个数据使用键值对形式  key : value
+    key必须使用&quot;&quot;包含
+    多个值之间使用逗号分隔
+
+JSON操作方法
+    object JSON.parse(JSONString)
+        把JSONString转换成JS中对象类型
+
+var json1 = &apos;{&quot;name&quot;:&quot;tong&quot;}&apos;;
+var obj = JSON.parse( json1 );//把JSON格式字符串转换成JS中对象类型
+console.log( obj );//结果是:&quot;[object object]&quot;
+
+var json1 = &apos;[1,2,4,5]&apos;;
+var obj = JSON.parse( json1 );//把JSON格式字符串转换成JS中对象类型
+console.log( obj );//结果是&quot;1,2,4,5&quot;
+
+
+string JSON.stringify(object)
+        把object转成JSON格式的字符串 
+
+var obj = {
+    &quot;name&quot;:&quot;tong&quot;
+}
+console.log(JSON.stringify(obj) );//结果：&quot;{&quot;name&quot;:&quot;tong&quot;}&quot;，把object转成JSON格式的字符串
+</code></pre>
       
     </div>
 
@@ -583,11 +622,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/npm/" rel="tag"># npm</a>
+            <a href="/tags/Javascript/" rel="tag"># Javascript</a>
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
-          
-            <a href="/tags/github/" rel="tag"># github</a>
+            <a href="/tags/String/" rel="tag"># String</a>
           
         </div>
       
@@ -596,14 +633,18 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/02/08/Array_method/" rel="next" title="数组方法">
+                <i class="fa fa-chevron-left"></i> 数组方法
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/02/08/Javascript_grammar/" rel="prev" title="Javascript语法">
-                Javascript语法 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/02/10/null_undefined_difference/" rel="prev" title="null与undefined的区别">
+                null与undefined的区别 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -619,10 +660,10 @@
 
     <div class="post-spread">
       
-        <div class="ds-share flat" data-thread-key="2016/01/24/hexo_github/"
-     data-title="基于Hexo和Github搭建博客"
+        <div class="ds-share flat" data-thread-key="2017/02/09/String_method/"
+     data-title="字符串方法"
      data-content=""
-     data-url="http://yoursite.com/2016/01/24/hexo_github/">
+     data-url="http://yoursite.com/2017/02/09/String_method/">
   <div class="ds-share-inline">
     <ul  class="ds-share-icons-16">
 
@@ -649,8 +690,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/01/24/hexo_github/"
-           data-title="基于Hexo和Github搭建博客" data-url="http://yoursite.com/2016/01/24/hexo_github/">
+      <div class="ds-thread" data-thread-key="2017/02/09/String_method/"
+           data-title="字符串方法" data-url="http://yoursite.com/2017/02/09/String_method/">
       </div>
     
   </div>
@@ -750,7 +791,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#GIT"><span class="nav-number">1.</span> <span class="nav-text">GIT</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是GIT"><span class="nav-number">1.1.</span> <span class="nav-text">什么是GIT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装GIT"><span class="nav-number">1.2.</span> <span class="nav-text">安装GIT</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GIT命令操作"><span class="nav-number">1.3.</span> <span class="nav-text">GIT命令操作</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GITHUB基本使用"><span class="nav-number">1.4.</span> <span class="nav-text">GITHUB基本使用</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#charAt"><span class="nav-number">1.</span> <span class="nav-text">charAt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#charCodeAt"><span class="nav-number">2.</span> <span class="nav-text">charCodeAt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#indexOf"><span class="nav-number">3.</span> <span class="nav-text">indexOf</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#lastIndexOf"><span class="nav-number">4.</span> <span class="nav-text">lastIndexOf</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#slice"><span class="nav-number">5.</span> <span class="nav-text">slice</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#split"><span class="nav-number">6.</span> <span class="nav-text">split</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#substring"><span class="nav-number">7.</span> <span class="nav-text">substring</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#substr"><span class="nav-number">8.</span> <span class="nav-text">substr</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#toLowerCase"><span class="nav-number">9.</span> <span class="nav-text">toLowerCase</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#toUpperCase"><span class="nav-number">10.</span> <span class="nav-text">toUpperCase</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#trim"><span class="nav-number">11.</span> <span class="nav-text">trim</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#JSON"><span class="nav-number">12.</span> <span class="nav-text">JSON</span></a></li></ol></div>
             
 
           </div>
